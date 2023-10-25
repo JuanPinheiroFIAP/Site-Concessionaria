@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+#servicos-mecanica h2 {
+  color: #333;
+}
+#servicos-mecanica ul {
+  list-style-type: none;
+  padding: 0;
+}
+#servicos-mecanica li {
+  margin-bottom: 8px;
+}
+
+#servicos-funilaria h2 {
+  color: #333;
+}
+#servicos-funilaria ul {
+  list-style-type: none;
+  padding: 0;
+}
+#servicos-funilaria li {
+  margin-bottom: 8px;
+}/*# sourceMappingURL=oficina.css.map */

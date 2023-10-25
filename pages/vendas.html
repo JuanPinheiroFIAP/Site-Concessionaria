@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/vendas.css">
+    <title>Vendas</title>
+</head>
+<body>
+    <header>
+        <h1>Oficina Mecânica</h1>
+    </header>
+
+    <nav>
+        <a href="#servicos">Serviços</a> |
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <p>Nossa oficina oferece uma variedade de serviços mecânicos para manter seu veículo em excelente estado.</p>
+        <ul>
+            <li>Troca de Óleo</li>
+            <li>Reparo de Motor</li>
+            <li>Freios e Suspensão</li>
+            <li>Alinhamento e Balanceamento</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para agendar um serviço ou tirar dúvidas.</p>
+        <form action="seu_script_de_envio.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Oficina Mecânica. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
